@@ -1,0 +1,9 @@
+nodeLinker: pnp
+pnpMode: "loose"
+packageExtensions:
+  "@aws-amplify/auth*":
+    dependencies:
+      "babel-plugin-macros": "*"
+  "debug@*":
+    dependencies:
+      supports-color: "*"
